@@ -1,0 +1,19 @@
+.animated-logo-container {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  transition: all 300ms;
+}
+
+@media screen and (max-width: 960px) {
+  .animated-logo-container {
+    width: 30%;
+  }
+}
